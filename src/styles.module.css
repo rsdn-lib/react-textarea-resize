@@ -1,9 +1,29 @@
-/* add css module styles here (optional) */
+.txtArea {
+  width: 300px;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.textarea {
+  width: 100%;
+  display: block;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.resizable {
+  height: 10px;
+  background: #eee;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
   text-align: center;
+  line-height: 0px;
+}
+.txtArea > div:hover {
+  cursor: n-resize;
+}
+
+.unSelectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

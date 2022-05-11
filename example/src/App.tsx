@@ -1,10 +1,14 @@
 import React from 'react'
 
-import { ExampleComponent } from '@rsdn/react-textarea-resize'
+import TextareaResize from '@rsdn/react-textarea-resize'
 import '@rsdn/react-textarea-resize/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div>
+    <h1>11111111111</h1>
+
+    <TextareaResize />
+  </div>
 }
 
 export default App
